@@ -13,6 +13,7 @@
 		D069E3F219ECD8E50001B962 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D069E3F119ECD8E50001B962 /* Images.xcassets */; };
 		D069E3F519ECD8E50001B962 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D069E3F319ECD8E50001B962 /* LaunchScreen.xib */; };
 		D069E40119ECD8E50001B962 /* grocery2k15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */; };
+		D0825A2519FAB9AC00E71408 /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0825A2419FAB9AC00E71408 /* GroceryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D069E3FA19ECD8E50001B962 /* grocery2k15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grocery2k15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069E3FF19ECD8E50001B962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocery2k15Tests.swift; sourceTree = "<group>"; };
+		D0825A2419FAB9AC00E71408 /* GroceryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D069E3EA19ECD8E50001B962 /* AppDelegate.swift */,
 				D069E3EC19ECD8E50001B962 /* ViewController.swift */,
+				D0825A2419FAB9AC00E71408 /* GroceryTableViewController.swift */,
 				D069E3EE19ECD8E50001B962 /* Main.storyboard */,
 				D069E3F119ECD8E50001B962 /* Images.xcassets */,
 				D069E3F319ECD8E50001B962 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D069E3ED19ECD8E50001B962 /* ViewController.swift in Sources */,
+				D0825A2519FAB9AC00E71408 /* GroceryTableViewController.swift in Sources */,
 				D069E3EB19ECD8E50001B962 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				D069E40619ECD8E50001B962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D069E40719ECD8E50001B962 /* Build configuration list for PBXNativeTarget "grocery2k15Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				D069E40919ECD8E50001B962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
