@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D069E3EB19ECD8E50001B962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E3EA19ECD8E50001B962 /* AppDelegate.swift */; };
-		D069E3ED19ECD8E50001B962 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E3EC19ECD8E50001B962 /* MainViewController.swift */; };
 		D069E3F219ECD8E50001B962 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D069E3F119ECD8E50001B962 /* Images.xcassets */; };
 		D069E40119ECD8E50001B962 /* grocery2k15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */; };
 		FB53096A1A01C3FA003EECE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5309681A01C3FA003EECE1 /* LaunchScreen.xib */; };
 		FB53096B1A01C3FA003EECE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5309691A01C3FA003EECE1 /* Main.storyboard */; };
+		FB5309701A01C946003EECE1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53096F1A01C946003EECE1 /* MainViewController.swift */; };
+		FB5309721A01C96E003EECE1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309711A01C96E003EECE1 /* LandingViewController.swift */; };
+		FB5309741A01CA49003EECE1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309731A01CA49003EECE1 /* BaseViewController.swift */; };
+		FB5309761A01CC60003EECE1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309751A01CC60003EECE1 /* Utils.swift */; };
+		FB53097C1A01CC99003EECE1 /* Create Account Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5309781A01CC99003EECE1 /* Create Account Screen.png */; };
+		FB53097D1A01CC99003EECE1 /* Login Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5309791A01CC99003EECE1 /* Login Screen.png */; };
+		FB53097E1A01CC99003EECE1 /* Main Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53097A1A01CC99003EECE1 /* Main Screen.png */; };
+		FB53097F1A01CC99003EECE1 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53097B1A01CC99003EECE1 /* Splash Screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +36,20 @@
 		D069E3E519ECD8E50001B962 /* grocery2k15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grocery2k15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069E3E919ECD8E50001B962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D069E3EA19ECD8E50001B962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D069E3EC19ECD8E50001B962 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D069E3F119ECD8E50001B962 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D069E3FA19ECD8E50001B962 /* grocery2k15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grocery2k15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069E3FF19ECD8E50001B962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocery2k15Tests.swift; sourceTree = "<group>"; };
 		FB5309681A01C3FA003EECE1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		FB5309691A01C3FA003EECE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB53096F1A01C946003EECE1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB5309711A01C96E003EECE1 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		FB5309731A01CA49003EECE1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FB5309751A01CC60003EECE1 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FB5309781A01CC99003EECE1 /* Create Account Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create Account Screen.png"; sourceTree = "<group>"; };
+		FB5309791A01CC99003EECE1 /* Login Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Screen.png"; sourceTree = "<group>"; };
+		FB53097A1A01CC99003EECE1 /* Main Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main Screen.png"; sourceTree = "<group>"; };
+		FB53097B1A01CC99003EECE1 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 		D069E3DC19ECD8E50001B962 = {
 			isa = PBXGroup;
 			children = (
+				FB5309771A01CC7D003EECE1 /* mockups */,
 				D069E3E719ECD8E50001B962 /* grocery2k15 */,
 				D069E3FD19ECD8E50001B962 /* grocery2k15Tests */,
 				D069E3E619ECD8E50001B962 /* Products */,
@@ -82,9 +97,8 @@
 				FB53096C1A01C5FD003EECE1 /* controllers */,
 				FB53096E1A01C5FD003EECE1 /* utils */,
 				D069E3F119ECD8E50001B962 /* Images.xcassets */,
-				D069E3EA19ECD8E50001B962 /* AppDelegate.swift */,
-				D069E3EC19ECD8E50001B962 /* MainViewController.swift */,
 				D069E3E819ECD8E50001B962 /* Supporting Files */,
+				D069E3EA19ECD8E50001B962 /* AppDelegate.swift */,
 			);
 			path = grocery2k15;
 			sourceTree = "<group>";
@@ -126,6 +140,9 @@
 		FB53096C1A01C5FD003EECE1 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FB53096F1A01C946003EECE1 /* MainViewController.swift */,
+				FB5309711A01C96E003EECE1 /* LandingViewController.swift */,
+				FB5309731A01CA49003EECE1 /* BaseViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -140,8 +157,20 @@
 		FB53096E1A01C5FD003EECE1 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				FB5309751A01CC60003EECE1 /* Utils.swift */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		FB5309771A01CC7D003EECE1 /* mockups */ = {
+			isa = PBXGroup;
+			children = (
+				FB5309781A01CC99003EECE1 /* Create Account Screen.png */,
+				FB5309791A01CC99003EECE1 /* Login Screen.png */,
+				FB53097A1A01CC99003EECE1 /* Main Screen.png */,
+				FB53097B1A01CC99003EECE1 /* Splash Screen.png */,
+			);
+			path = mockups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53096B1A01C3FA003EECE1 /* Main.storyboard in Resources */,
+				FB53097C1A01CC99003EECE1 /* Create Account Screen.png in Resources */,
 				FB53096A1A01C3FA003EECE1 /* LaunchScreen.xib in Resources */,
+				FB53097E1A01CC99003EECE1 /* Main Screen.png in Resources */,
+				FB53097F1A01CC99003EECE1 /* Splash Screen.png in Resources */,
+				FB53097D1A01CC99003EECE1 /* Login Screen.png in Resources */,
 				D069E3F219ECD8E50001B962 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D069E3ED19ECD8E50001B962 /* MainViewController.swift in Sources */,
+				FB5309761A01CC60003EECE1 /* Utils.swift in Sources */,
 				D069E3EB19ECD8E50001B962 /* AppDelegate.swift in Sources */,
+				FB5309741A01CA49003EECE1 /* BaseViewController.swift in Sources */,
+				FB5309721A01C96E003EECE1 /* LandingViewController.swift in Sources */,
+				FB5309701A01C946003EECE1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
