@@ -8,20 +8,38 @@
 
 import UIKit
 
-class LandingViewController: BaseViewController {
+class LandingViewController: UIViewController
+{
+    
+    // MARK: Fields
+    
+    @IBOutlet weak var backgroundImageView: UIImageView!
     
     // MARK: Life Cycle
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
+        showLoginView()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(animated: Bool)
+    {
         super.viewWillAppear(animated)
     }
     
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
+    }
+    
+    // MARK: Private Instance Methods
+    
+    private func showLoginView()
+    {
+        // Add blur effect
+        Utils.blurEffect(self.backgroundImageView, frame: self.view.frame)
     }
    
 }

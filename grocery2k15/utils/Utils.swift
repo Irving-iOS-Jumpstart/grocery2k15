@@ -8,6 +8,14 @@
 
 import UIKit
 
-class Utils: NSObject {
+ class Utils: NSObject {
+    
+    class func blurEffect(view: UIView!, frame: CGRect)
+    {
+        var blur:UIBlurEffect = UIBlurEffect(style:UIBlurEffectStyle.Dark)
+        var effectView:UIVisualEffectView = UIVisualEffectView(effect: blur)
+        effectView.frame = frame
+        view.addSubview(effectView)
+    }
    
 }

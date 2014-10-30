@@ -12,14 +12,15 @@
 		D069E40119ECD8E50001B962 /* grocery2k15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */; };
 		FB53096A1A01C3FA003EECE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5309681A01C3FA003EECE1 /* LaunchScreen.xib */; };
 		FB53096B1A01C3FA003EECE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5309691A01C3FA003EECE1 /* Main.storyboard */; };
-		FB5309701A01C946003EECE1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53096F1A01C946003EECE1 /* MainViewController.swift */; };
 		FB5309721A01C96E003EECE1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309711A01C96E003EECE1 /* LandingViewController.swift */; };
-		FB5309741A01CA49003EECE1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309731A01CA49003EECE1 /* BaseViewController.swift */; };
 		FB5309761A01CC60003EECE1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5309751A01CC60003EECE1 /* Utils.swift */; };
 		FB53097C1A01CC99003EECE1 /* Create Account Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5309781A01CC99003EECE1 /* Create Account Screen.png */; };
 		FB53097D1A01CC99003EECE1 /* Login Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5309791A01CC99003EECE1 /* Login Screen.png */; };
 		FB53097E1A01CC99003EECE1 /* Main Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53097A1A01CC99003EECE1 /* Main Screen.png */; };
 		FB53097F1A01CC99003EECE1 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = FB53097B1A01CC99003EECE1 /* Splash Screen.png */; };
+		FB80641A1A01F18E0029B449 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8064191A01F18E0029B449 /* SignInViewController.swift */; };
+		FB80641C1A01F19B0029B449 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80641B1A01F19B0029B449 /* SignUpViewController.swift */; };
+		FB80641E1A01F1B20029B449 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80641D1A01F1B20029B449 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +43,15 @@
 		D069E40019ECD8E50001B962 /* grocery2k15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocery2k15Tests.swift; sourceTree = "<group>"; };
 		FB5309681A01C3FA003EECE1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		FB5309691A01C3FA003EECE1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FB53096F1A01C946003EECE1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FB5309711A01C96E003EECE1 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		FB5309731A01CA49003EECE1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FB5309751A01CC60003EECE1 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		FB5309781A01CC99003EECE1 /* Create Account Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create Account Screen.png"; sourceTree = "<group>"; };
 		FB5309791A01CC99003EECE1 /* Login Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login Screen.png"; sourceTree = "<group>"; };
 		FB53097A1A01CC99003EECE1 /* Main Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main Screen.png"; sourceTree = "<group>"; };
 		FB53097B1A01CC99003EECE1 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = "<group>"; };
+		FB8064191A01F18E0029B449 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FB80641B1A01F19B0029B449 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FB80641D1A01F1B20029B449 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +142,10 @@
 		FB53096C1A01C5FD003EECE1 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FB53096F1A01C946003EECE1 /* MainViewController.swift */,
 				FB5309711A01C96E003EECE1 /* LandingViewController.swift */,
-				FB5309731A01CA49003EECE1 /* BaseViewController.swift */,
+				FB8064191A01F18E0029B449 /* SignInViewController.swift */,
+				FB80641B1A01F19B0029B449 /* SignUpViewController.swift */,
+				FB80641D1A01F1B20029B449 /* AuthViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -278,10 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5309761A01CC60003EECE1 /* Utils.swift in Sources */,
+				FB80641C1A01F19B0029B449 /* SignUpViewController.swift in Sources */,
 				D069E3EB19ECD8E50001B962 /* AppDelegate.swift in Sources */,
-				FB5309741A01CA49003EECE1 /* BaseViewController.swift in Sources */,
+				FB80641A1A01F18E0029B449 /* SignInViewController.swift in Sources */,
+				FB80641E1A01F1B20029B449 /* AuthViewController.swift in Sources */,
 				FB5309721A01C96E003EECE1 /* LandingViewController.swift in Sources */,
-				FB5309701A01C946003EECE1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

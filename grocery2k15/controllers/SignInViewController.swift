@@ -1,5 +1,5 @@
 //
-//  BaseViewController.swift
+//  SignInViewController.swift
 //  grocery2k15
 //
 //  Created by Tony Kieu on 10/29/14.
@@ -8,26 +8,20 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class SignInViewController: AuthViewController {
 
-    // MARK: Life Cycle
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
-    
-    override func viewWillAppear(animated: Bool) {
-    }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle
-    {
-        return UIStatusBarStyle.LightContent
-    }
-    
+
     /*
     // MARK: - Navigation
 

@@ -19,21 +19,197 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="PGx-0o-dkb" customClass="back">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeF-EB-y8r">
+                                <rect key="frame" x="150" y="200" width="300" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grocery2k15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifn-Zl-oZt">
+                                        <rect key="frame" x="65" y="10" width="170" height="40"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwY-aC-H4f">
+                                        <rect key="frame" x="10" y="66" width="280" height="50"/>
+                                        <color key="backgroundColor" red="0.011764705882352941" green="0.65490196078431373" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Create New Account">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="j24-zs-M6Y" kind="showDetail" id="MXm-re-5MP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvA-fD-i1e">
+                                        <rect key="frame" x="10" y="124" width="280" height="50"/>
+                                        <color key="backgroundColor" red="0.01176470588" green="0.65490196079999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="9mi-Vo-4Ud" kind="showDetail" id="UVJ-FL-oJU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="016-Op-kfv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="0Z9-l4-E8F"/>
+                                    <constraint firstAttribute="width" constant="300" id="Qr2-1Q-9n1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="bYG-cS-jxj"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="PeF-EB-y8r" firstAttribute="centerY" secondItem="PGx-0o-dkb" secondAttribute="centerY" id="68i-r8-SBX"/>
                             <constraint firstItem="PGx-0o-dkb" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="6cD-Jf-HIj"/>
+                            <constraint firstItem="PeF-EB-y8r" firstAttribute="centerX" secondItem="PGx-0o-dkb" secondAttribute="centerX" id="phB-Ba-ogr"/>
                             <constraint firstItem="PGx-0o-dkb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rcS-tQ-bKO"/>
                             <constraint firstItem="PGx-0o-dkb" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="s6U-vH-3ay"/>
                             <constraint firstAttribute="trailing" secondItem="PGx-0o-dkb" secondAttribute="trailing" id="ysL-IP-edU"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Xto-H9-CwX"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="PGx-0o-dkb" id="Pbc-aZ-M8c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="RE1-SF-viR">
+            <objects>
+                <viewController id="j24-zs-M6Y" customClass="SignUpViewController" customModule="grocery2k15" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="svS-SH-ZT3"/>
+                        <viewControllerLayoutGuide type="bottom" id="jBf-9Z-rgc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UY7-1y-W9W">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="NhA-IN-Egm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbS-3Z-nHv">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Create Account" id="Twq-fB-Qu2">
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="ruS-Un-YcS">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="popoverPresentation" popoverAnchorBarButtonItem="ruS-Un-YcS" id="z7Y-rx-Qfm">
+                                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                </segue>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NhA-IN-Egm" firstAttribute="bottom" secondItem="jBf-9Z-rgc" secondAttribute="top" id="Ape-8J-lJu"/>
+                            <constraint firstAttribute="trailing" secondItem="WbS-3Z-nHv" secondAttribute="trailing" id="DDk-So-sfD"/>
+                            <constraint firstItem="NhA-IN-Egm" firstAttribute="trailing" secondItem="WbS-3Z-nHv" secondAttribute="trailing" id="LXV-cz-qfS"/>
+                            <constraint firstItem="NhA-IN-Egm" firstAttribute="leading" secondItem="WbS-3Z-nHv" secondAttribute="leading" id="XhE-kM-mUK"/>
+                            <constraint firstItem="NhA-IN-Egm" firstAttribute="top" secondItem="UY7-1y-W9W" secondAttribute="top" id="acf-Zi-dcQ"/>
+                            <constraint firstItem="WbS-3Z-nHv" firstAttribute="leading" secondItem="UY7-1y-W9W" secondAttribute="leading" id="oTL-Lj-iqs"/>
+                            <constraint firstItem="WbS-3Z-nHv" firstAttribute="top" secondItem="svS-SH-ZT3" secondAttribute="bottom" id="rdU-gA-R9o"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="NhA-IN-Egm" id="MPS-1o-WUG"/>
+                        <outlet property="navBar" destination="WbS-3Z-nHv" id="nva-zG-yL3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r7k-aZ-NTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1362" y="-14"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="cEK-aV-ggt">
+            <objects>
+                <viewController id="9mi-Vo-4Ud" customClass="SignInViewController" customModule="grocery2k15" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Gb-Hd-EWX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Est-RM-e2m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZAa-t9-voy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="8fw-XR-opA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r9n-zo-tik">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Sign In" id="D4P-gp-jde">
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="seV-m1-LMk">
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="popoverPresentation" popoverAnchorBarButtonItem="seV-m1-LMk" id="gRa-AO-Gmj">
+                                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                </segue>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8fw-XR-opA" firstAttribute="leading" secondItem="r9n-zo-tik" secondAttribute="leading" id="BVm-vO-Jzr"/>
+                            <constraint firstItem="8fw-XR-opA" firstAttribute="top" secondItem="ZAa-t9-voy" secondAttribute="top" id="Gel-rO-sy5"/>
+                            <constraint firstItem="8fw-XR-opA" firstAttribute="trailing" secondItem="r9n-zo-tik" secondAttribute="trailing" id="HzH-BO-2nG"/>
+                            <constraint firstItem="r9n-zo-tik" firstAttribute="top" secondItem="9Gb-Hd-EWX" secondAttribute="bottom" id="Vlf-DN-nMB"/>
+                            <constraint firstItem="8fw-XR-opA" firstAttribute="bottom" secondItem="Est-RM-e2m" secondAttribute="top" id="ctL-II-baR"/>
+                            <constraint firstAttribute="trailing" secondItem="r9n-zo-tik" secondAttribute="trailing" id="ebH-3p-7h4"/>
+                            <constraint firstItem="r9n-zo-tik" firstAttribute="leading" secondItem="ZAa-t9-voy" secondAttribute="leading" id="tbe-lk-Ix0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="8fw-XR-opA" id="26x-Kk-Coh"/>
+                        <outlet property="navBar" destination="r9n-zo-tik" id="ix9-GM-4Lp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1K-lc-iNu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1362" y="696"/>
         </scene>
     </scenes>
     <resources>
         <image name="BackgroundImage" width="1838" height="3264"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="gRa-AO-Gmj"/>
+    </inferredMetricsTieBreakers>
 </document>
