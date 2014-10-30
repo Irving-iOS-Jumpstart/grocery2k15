@@ -92,8 +92,8 @@
 		D069E3E719ECD8E50001B962 /* grocery2k15 */ = {
 			isa = PBXGroup;
 			children = (
+				FB5309801A01CE75003EECE1 /* models */,
 				FB5309671A01C3FA003EECE1 /* views */,
-				FB53096D1A01C5FD003EECE1 /* models */,
 				FB53096C1A01C5FD003EECE1 /* controllers */,
 				FB53096E1A01C5FD003EECE1 /* utils */,
 				D069E3F119ECD8E50001B962 /* Images.xcassets */,
@@ -147,13 +147,6 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		FB53096D1A01C5FD003EECE1 /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
 		FB53096E1A01C5FD003EECE1 /* utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +164,13 @@
 				FB53097B1A01CC99003EECE1 /* Splash Screen.png */,
 			);
 			path = mockups;
+			sourceTree = "<group>";
+		};
+		FB5309801A01CE75003EECE1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
