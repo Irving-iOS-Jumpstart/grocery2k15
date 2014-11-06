@@ -21,6 +21,7 @@
 		FB80641A1A01F18E0029B449 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8064191A01F18E0029B449 /* SignInViewController.swift */; };
 		FB80641C1A01F19B0029B449 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80641B1A01F19B0029B449 /* SignUpViewController.swift */; };
 		FB80641E1A01F1B20029B449 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB80641D1A01F1B20029B449 /* AuthViewController.swift */; };
+		FB99EF991A0B0B27004CDEE5 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB99EF981A0B0B27004CDEE5 /* FormCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FB8064191A01F18E0029B449 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		FB80641B1A01F19B0029B449 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FB80641D1A01F1B20029B449 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FB99EF981A0B0B27004CDEE5 /* FormCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		FB5309671A01C3FA003EECE1 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				FB99EF971A0B01FC004CDEE5 /* tablecells */,
 				FB5309681A01C3FA003EECE1 /* LaunchScreen.xib */,
 				FB5309691A01C3FA003EECE1 /* Main.storyboard */,
 			);
@@ -174,6 +177,14 @@
 			children = (
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		FB99EF971A0B01FC004CDEE5 /* tablecells */ = {
+			isa = PBXGroup;
+			children = (
+				FB99EF981A0B0B27004CDEE5 /* FormCell.swift */,
+			);
+			path = tablecells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				FB5309761A01CC60003EECE1 /* Utils.swift in Sources */,
 				FB80641C1A01F19B0029B449 /* SignUpViewController.swift in Sources */,
+				FB99EF991A0B0B27004CDEE5 /* FormCell.swift in Sources */,
 				D069E3EB19ECD8E50001B962 /* AppDelegate.swift in Sources */,
 				FB80641A1A01F18E0029B449 /* SignInViewController.swift in Sources */,
 				FB80641E1A01F1B20029B449 /* AuthViewController.swift in Sources */,

@@ -8,28 +8,57 @@
 
 import UIKit
 
-class SignUpViewController: AuthViewController {
+class SignUpViewController: AuthViewController, UITableViewDataSource, UITableViewDelegate {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var signUpTable: UITableView!
+    
+    private var signUpContentList =
+    [
+        ["placeholder": "Name", "value": ""],
+        ["placeholder": "Email Address", "value": ""],
+        ["placeholder": "Password", "value": ""]
+    ]
+    
+    // MARK: Life Cycle
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // MARK: UITableViewDataSource
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return signUpContentList.count
     }
-    */
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        let cell:FormCell = tableView.dequeueReusableCellWithIdentifier("form_cell") as FormCell
+
+        // Set the place holder
+        cell.textField.placeholder = signUpContentList[indexPath.row]["placeholder"]
+        
+        // Remove the separator of last cell
+        if (indexPath.row == signUpContentList.count - 1)
+        {
+            cell.separatorInset = UIEdgeInsetsMake(0, cell.bounds.size.width, 0, 0)
+        }
+        
+        return cell
+    }
+    
+    // MARK: UITableViewDelegate
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        // TODO: Implement later
+    }
 
 }
